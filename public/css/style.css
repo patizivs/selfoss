@@ -296,7 +296,7 @@ input {
     -webkit-border-radius:4px;
     -khtml-border-radius:4px;
     border-radius:4px;
-    background:rgba(255, 255, 255, 0.4);
+    background:rgba(255, 255, 255, 0.7);
     position:relative;
     font: 18px/27px 'OpenSansRegular', Arial, sans-serif;
     font-size:0.9em;
@@ -306,6 +306,7 @@ input {
     .entry.selected.unread,
     .entry.unread {
         border-left:3px solid #5f9490;
+        border-bottom:1px solid #DEDEDE;
     }
 
     .entry.selected {
@@ -330,6 +331,7 @@ input {
         color:#999999;
         padding-top:7px;
         padding-bottom:7px;
+        font-size: 14px;
     }
     
         .entry.unread  .entry-title {
@@ -357,7 +359,8 @@ input {
         column-count: 3;
         column-gap: 2em;
         column-rule: 1px solid rgba(204, 204, 204, 0.4);
-        font-size:0.95em;
+        font-size:0.79em;
+        color: #777;
         margin-top:20px;
         line-height: 1.7em;
     }
